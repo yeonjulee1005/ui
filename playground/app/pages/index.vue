@@ -5,14 +5,14 @@
     </h1>
 
     <div class="flex items-center justify-center gap-1">
-      <UDropdownMenu
+      <DDDropdownMenu
         v-model:open="dropdownMenuTrigger"
         :items="items"
         size="lg"
         :content="{ align: 'start' }"
       >
-        <UButton label="Open" />
-      </UDropdownMenu>
+        <DDButton label="Open" />
+      </DDDropdownMenu>
     </div>
   </div>
 </template>

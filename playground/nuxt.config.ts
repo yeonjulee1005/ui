@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   modules: ['../src/module'],
 
   ui: {
-    fonts: false
+    prefix: 'DD'
   },
   future: {
     compatibilityVersion: 4
