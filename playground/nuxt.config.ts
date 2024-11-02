@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   modules: ['../src/module'],
 
+  ui: {
+    fonts: false
+  },
   future: {
     compatibilityVersion: 4
   },
